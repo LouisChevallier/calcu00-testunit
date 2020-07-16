@@ -33,4 +33,25 @@ class Calc {
 
 }
 
+class User {
+
+    public $email;
+    public $nom;
+    public $prenom;
+    public $age;
+
+    public function __construct($num1Inserted, $num2Inserted, $calInserted) {
+        $this->email = $emailInserted;
+        $this->nom = $nomInserted;
+        $this->prenom = $prenomInserted;
+        $this->age = $ageInserted;
+    }
+
+    public function isValid() {
+        
+    }
+
+}
+
+
  ?>
